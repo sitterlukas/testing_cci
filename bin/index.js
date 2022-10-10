@@ -6,7 +6,7 @@ import inquirer from 'inquirer';
 import fetch from 'node-fetch';
 
 const usage = chalk.hex('#E030F3')("\nUsage: Select options for CCI to start")
-const started = chalk.hex('#E030F3')("\nCCI started successfully")
+const started = chalk.hex('#E030F3')("CCI started successfully")
 
 const options = yargs(hideBin(process.argv))
     .usage(usage)

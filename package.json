@@ -1,0 +1,21 @@
+{
+  "name": "CCI-CLI",
+  "version": "1.0.0",
+  "description": "A CLI to start tests from terminal.",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "bin": {
+    "cci": "./bin/index.js"
+  },
+  "dependencies": {
+    "@vitalets/google-translate-api": "^7.0.0",
+    "boxen": "^4.2.0",
+    "chalk": "^4.1.1",
+    "yargs": "^16.1.1"
+  }
+}

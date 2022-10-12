@@ -37,13 +37,13 @@ inquirer
             type: 'list',
             name: 'type',
             message: 'Select which type of tests you want to use?',
-            choices: ['all except percy', 'private', 'public', 'migroman', 'custom glob' ],
+            choices: ['all except percy', 'private', 'public', 'migroman', 'custom glob' ]
         },
         {
             type: 'list',
             name: 'config',
             message: 'Select which config you want to use?',
-            choices: ['development.config.js', 'staging.config.js', 'release.config.js' ],
+            choices: ['development.config.js', 'staging.config.js', 'release.config.js' ]
         },
         {
             name: 'glob',
@@ -59,13 +59,13 @@ inquirer
             type: 'list',
             name: 'repetition',
             message: 'Select the repetition option?',
-            choices: ['2', '1' ],
+            choices: ['2', '1' ]
         },
         {
             type: 'list',
             name: 'parallelization',
             message: 'Select the parallelization option?',
-            choices: ['10', '5', '3', '1' ],
+            choices: ['10', '5', '3', '1' ]
         },
 
     ])

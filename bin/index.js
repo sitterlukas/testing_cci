@@ -1,9 +1,9 @@
 #! /usr/bin/env node
-import chalk  from "chalk";
+import chalk  from "chalk"
 import yargs from 'yargs'
 import { hideBin } from 'yargs/helpers'
-import inquirer from 'inquirer';
-import fetch from 'node-fetch';
+import inquirer from 'inquirer'
+import fetch from 'node-fetch'
 
 const usage = chalk.hex('#E030F3')("\nUsage: Select options for CCI to start")
 const started = chalk.hex('#E030F3')("CCI started successfully")
